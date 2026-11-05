@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>💪 BMI Calculator</title>
+
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>💪 BMI Calculator</h1>
+        <p>Check your body mass index easily!</p>
+    </header>
+
+    <main>
+
+        <div class="calculator">
+
+            <input
+                type="number"
+                id="weight"
+                placeholder="Weight (kg)"
+                min="0"
+                step="any"
+            >
+
+            <input
+                type="number"
+                id="height"
+                placeholder="Height (cm)"
+                min="0"
+                step="any"
+            >
+
+            <button id="calculateBtn">Calculate BMI</button>
+
+            <p id="result"></p>
+
+            <button id="downloadBtn">Download Result</button>
+
+            <button id="copyBtn">Copy Result</button>
+
+        </div>
+
+        <div class="share">
+
+            <p>Share this tool with friends!</p>
+
+            <!-- Facebook -->
+            <a
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frithmymanathunga.github.io%2FBMI---Calculator%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Facebook
+            </a>
+
+            <!-- Twitter -->
+            <a
+                href="https://twitter.com/intent/tweet?text=Check%20my%20BMI!&url=https%3A%2F%2Frithmymanathunga.github.io%2FBMI---Calculator%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Twitter
+            </a>
+
+            <!-- Instagram -->
+            <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram
+            </a>
+
+            <!-- WhatsApp -->
+            <a
+                href="https://api.whatsapp.com/send?text=Check%20my%20BMI%20here%3A%20https%3A%2F%2Frithmymanathunga.github.io%2FBMI---Calculator%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                WhatsApp
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 BMI Calculator</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
